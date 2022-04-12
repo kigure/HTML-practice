@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spring{
+  height: 200px;
+  background-image: url(img2/box1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.summer{
+  height: 200px;
+  background-image: url(img2/box2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.fall{
+  height: 200px;
+  background-image: url(img2/box3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.winter{
+  height: 200px;
+  background-image: url(img2/box4.jpg);
+  background-position: center;
+  background-size: cover;
+}
