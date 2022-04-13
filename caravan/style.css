@@ -58,19 +58,68 @@ header.heading{font-size: 32px;}
   margin-top: 30px;
 }
 
-.main{
-  width: 840px;
-/* background-color, heightの指定を解除 */
+main{
+  width: 800px;
   display: flex;
-  /* Flexboxの利用 */
   justify-content: center;
   margin: 0 auto;
-  /* 中央寄せ（左右に余白がないとできない） */
-
+  padding: 70px 0;
 }
 
-.blog{width: 600px;  height: 1400px;}
-.sidbar{width: 240px;height: 1400px;}
+.blog{
+  width: 540px;
+  padding-right: 30px;
+}
+
+.blog-heading{
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.blog-box{
+  padding-top: 50px;
+}
+
+.blog-item{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blog-image{
+  height: 180px;
+}
+
+.blog-text{
+  padding: 25px 0 0 30px;
+}
+
+.blog-text-heading{
+  padding-bottom: 15px;
+  width: 240px;
+}
+
+.blog-date{
+  font-size: 12px;
+  display: inline;
+}
+
+.category{
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
+
+.sidebar{
+  width: 230px;
+}
 
 footer{
   width: 100%;
