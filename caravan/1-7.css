@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 400px;
+  background-image: url(img3/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.header-text{
+  color: #6c6b6b;
+  padding: 20px 0 0 20px;
+}
+
+main{
+  width: 840px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #6c6b6b;
+}
+
+.main-box{
+  padding-top: 30px;
+}
+
+.main-bottom{
+  border-bottom: solid 1px;
+  width: 840px;
+  padding-top: 30px;
+}
+
+.link-text{
+  color: #6c6b6b;
+}
+
+
+
