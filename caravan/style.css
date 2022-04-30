@@ -115,12 +115,11 @@ main{
 
 .blog-text-heading{
   padding-bottom: 15px;
-  width: 240px;
 }
 
 .blog-date{
   font-size: 12px;
-  display: inline;
+  display: inline-block;
 }
 
 .category{
